@@ -1,0 +1,5 @@
+*.csv
+output/
+out/
+.idea/
+hadoop-3.2.1/

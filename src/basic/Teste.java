@@ -46,6 +46,8 @@ public class Teste {
         FileInputFormat.addInputPath(j, input);
         FileOutputFormat.setOutputPath(j, output);
 
+
+        //teste commit aleatorio
         // lanca o job e aguarda sua execucao
         System.exit(j.waitForCompletion(true) ? 0 : 1);
     }
