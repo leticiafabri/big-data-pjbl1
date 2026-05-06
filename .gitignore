@@ -1,5 +1,14 @@
 *.csv
-output/
+
 out/
 .idea/
 hadoop-3.2.1/
+
+output/resultado_questao01/
+output/resultado_questao02/
+output/resultado_questao03/
+output/resultado_questao04/
+output/resultado_questao05/
+output/resultado_questao06/
+output/resultado_questao07/
+output/resultado_questao08/
