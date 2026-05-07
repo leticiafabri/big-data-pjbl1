@@ -94,7 +94,7 @@ public class Questao04 {
 
         // Arquivo de entrada
         FileInputFormat.addInputPath(j,
-                new Path("in/operacoes_comerciais_inteira.csv")); // Esse arquivo está local no meu pc
+                new Path("in/operacoes_comerciais_inteira - cópia.csv")); // Esse arquivo está local no meu pc
 
         // Pasta temporária de saída
         FileOutputFormat.setOutputPath(j,

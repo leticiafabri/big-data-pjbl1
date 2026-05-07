@@ -94,7 +94,7 @@ public class Questao03 {
 
         // Arquivo de entrada
         FileInputFormat.addInputPath(j,
-                new Path("in/operacoes_comerciais_inteira.csv"));
+                new Path("in/operacoes_comerciais_inteira - cópia.csv"));
 
         // Pasta temporária de saída
         FileOutputFormat.setOutputPath(j,
