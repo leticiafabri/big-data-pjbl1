@@ -87,7 +87,7 @@ public class Questao01 {
 
         // Arquivo de entrada
         FileInputFormat.addInputPath(j,
-                new Path("in/operacoes_comerciais_inteira - cópia.csv"));
+                new Path("in/operacoes_comerciais_inteira.csv"));
 
         // Pasta temporária de saída do Hadoop
         FileOutputFormat.setOutputPath(j,
