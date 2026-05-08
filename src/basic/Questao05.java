@@ -104,7 +104,7 @@ public class Questao05 {
         j.setOutputValueClass(DoubleWritable.class);
 
         FileInputFormat.addInputPath(j,
-                new Path("in/operacoes_comerciais_inteira - cópia.csv"));
+                new Path("in/operacoes_comerciais_inteira.csv"));
 
         FileOutputFormat.setOutputPath(j,
                 new Path("output/resultado_questao05"));
